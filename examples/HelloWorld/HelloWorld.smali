@@ -1,16 +1,13 @@
-.class public LHelloWorld;
+# HelloWorld.java对应的smali汇编文件
+# public class HelloWorld {
+# 
+#     public static void main(String[] args) {
+#         System.out.println("Hello World!");
+#     }
+#
+# }
 
-#Ye olde hello world application
-#To assemble and run this on a phone or emulator:
-#
-#java -jar smali.jar -o classes.dex HelloWorld.smali
-#zip HelloWorld.zip classes.dex
-#adb push HelloWorld.zip /data/local
-#adb shell dalvikvm -cp /data/local/HelloWorld.zip HelloWorld
-#
-#if you get out of memory type errors when running smali.jar, try
-#java -Xmx512m -jar smali.jar HelloWorld.smali
-#instead
+.class public LHelloWorld;
 
 .super Ljava/lang/Object;
 
